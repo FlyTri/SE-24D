@@ -2,23 +2,23 @@
 ### Đăng nhập thành công
 ```json
 {
-  Locked: '0',
-  Logged: '0',
-  Privilege: '1',
-  Active: '1',
-  Luci: '0',
-  ecntToken: '123e06725ace83eb73a17cecd7d506547'
+  "Locked": "0",
+  "Logged": "0",
+  "Privilege": "1",
+  "Active": "1",
+  "Luci": "0",
+  "ecntToken": "123e06725ace83eb73a17cecd7d506547"
 }
 ```
 ### Đăng nhập không thành công (sai mật khẩu 1 lần)
 ```json
 {
-  Locked: '0', // hoặc '1': "Login three times fail, Webpage locked,please login after 1 minute"
-  Logged: '0', // hoặc '1': "Admistrator account is login!" | '2': "User account is already login!"
-  Privilege: '0',
-  Active: '0',
-  Luci: '0',
-  ecntToken: '000000000000000000000000000000000'
+  "Locked": "0", // hoặc "1": "Login three times fail, Webpage locked,please login after 1 minute"
+  "Logged": "0", // hoặc "1": "Admistrator account is login!" | "2": "User account is already login!"
+  "Privilege": "0",
+  "Active": "0",
+  "Luci": "0",
+  "ecntToken": "000000000000000000000000000000000"
 }
 ```
 # Ví dụ: Khởi động lại router/modem
